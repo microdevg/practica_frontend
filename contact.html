@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="./style.css">
+
+    </style>
+</head>
+<body>
+
+
+    <nav>
+        <a href="./index.html">Cursos</a>
+        <a href="./contact.html">Contacto</a>
+    </nav>
+    <main>
+    <h2> Formulario de contacto</h2>
+    <form action="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="tipo">Tipo de consulta:</label>
+        <select name="tipo" id="tipo">
+            <option value="cursos">Sobre cursos</option>
+            <option value="capacitaciones">Capacitaciones corporativas</option>
+            <option value="consultoria">Asesoramiento y consultoría</option>
+        </select>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+
+        <label for="consulta">Mensaje:</label>
+        <textarea name="consulta" id="consulta" rows="10" cols="40"></textarea>
+
+        <input type="submit" value="ENVIAR">
+    </form>
+    </main>
+    <footer>
+        <p>&copy; Derechos reservados</p>
+    </footer>
+</body>
+</html>
