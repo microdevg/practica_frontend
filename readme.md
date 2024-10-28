@@ -41,3 +41,6 @@ El propósito de este portal es ofrecer una experiencia visual atractiva y fáci
 1. Clona el repositorio en tu máquina local:
    ```bash
    git clone https://github.com/tu-usuario/mi-portal-de-cursos.git
+   ```
+
+Link a la pagina web: [link](https://microdevg.github.io/practica_frontend/).
